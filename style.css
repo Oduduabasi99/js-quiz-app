@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    font-family: georgia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    width: 600px;
+}
+.header{
+    padding: 4rem;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: coral;
+    color: black;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    padding: 1.3rem;
+}
